@@ -1,29 +1,28 @@
 include "main.h"
 /**
- * sqrt2 - makes it possible to evaluate frome 1 to n
- * @a: same number as n
- * @b: number that itrates from one to n
- *
- * Return: on success 1
- * On error: -1
- */
-int sqrt2(int a, int b)
-{
-	if (b * b == a)
-		return (b);
-	if (b * b > a)
-		return (-1);
-	return (sqrt2(a, b + 1));
-}
-/**
- *_sqrt_recursion - reeturns the natural square root of n
- *@n: Number integer
- *
+ * _sqrt_recursion - main funtion
+ * @n: int n
  * Return: on success 1
  * On error: -1
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	return (_sqrt(n, 1);
 }
-
+/**
+ *_sqrt - sqrt recursion
+ *@i: Number integer
+ *@n: integer parameter
+ * Return: on success 1
+ * On error: -1
+ */
+int _sqrt(int n, int i)
+{
+       if (n < 0)
+               return (-1);
+       if ((i * i) > n)
+               return (-1);
+       if (i * i == n)
+               return (i);
+       return (_sqrt(n, i + 1));
+}
