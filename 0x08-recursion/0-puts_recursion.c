@@ -1,23 +1,23 @@
 #include "main.h"
-
 /**
  * _puts_recursion - prints a string
- * @s: pointer block of memoty to fill
+ * @s: pointer block of memory to fill
  * Return: void
  */
 
-void _puts_recursion(char *s)
+void _puts_recursion(char *S)
+
 
 {
-if (s=='\0')
+if (*s=='\0')
+
 {
 
-_putschar('\n);
+_putchar('\n');
 return;
 }
 
-_putschar (*s);
+_putchar(*s);
 _puts_recursion(s + 1);
 
 }
-
