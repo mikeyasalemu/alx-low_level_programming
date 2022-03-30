@@ -20,6 +20,7 @@ int divsors(int n, int m)
 	{	
 		return (1);
 	}
+}
 	
 /**
  * is_prime_number - main function 
@@ -34,6 +35,6 @@ int is_prime_number(int n)
 	}
 	else 
 	{
-		return (divisor(3, n));
+		return (divisors(3, n));
 	}
 }
