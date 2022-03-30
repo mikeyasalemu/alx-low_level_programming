@@ -6,7 +6,7 @@
  * Return: on success 1
  * On error: -1
  */
-int divsors(int n, int m)
+int divisors(int n, int m)
 {
 	if (m % n == 0)
 	{
