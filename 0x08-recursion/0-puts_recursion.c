@@ -5,11 +5,11 @@
  * Return: void
  */
 
-void _puts_recursion(char *s)
+void _puts_recursion(char *S)
 
 
 {
-if (*s=='\0')
+if (*s == '\0')
 
 {
 
