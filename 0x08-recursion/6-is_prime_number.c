@@ -17,13 +17,12 @@ int divisors(int n, int m)
 		return (divisors(n + 2, m));
 	}
 	else
-	{	
+	{
 		return (1);
 	}
 }
-	
 /**
- * is_prime_number - main function 
+ * is_prime_number - main function
  * @n: integer
  * Return: on success 1
  */
@@ -33,7 +32,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 		return (divisors(3, n));
 	}
