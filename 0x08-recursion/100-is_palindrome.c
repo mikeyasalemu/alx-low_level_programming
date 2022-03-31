@@ -18,7 +18,7 @@ int _strlen_recursion(char *s)
  * @l: position
  * Return: integer
  */
-int p1(int *s, int l)
+int p1(char *s, int l)
 {
 	if (l < 1)
 	{
@@ -35,7 +35,7 @@ int p1(int *s, int l)
  * @s: Pointer to string
  * Return: integer
  */
-int is_palindrome(int *s)
+int is_palindrome(char *s)
 {
 	int len = _strlen_recursion(s);
 	return (p1(s, len - 1);
