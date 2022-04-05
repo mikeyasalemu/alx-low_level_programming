@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - prints its name
  * @argc: number of command line arguments.
