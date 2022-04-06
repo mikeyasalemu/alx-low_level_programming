@@ -4,7 +4,7 @@
 /**
  * str_concat - concatenates two strings.
  * @s1: first string
- * @S1: SECOND STRING/
+ * @S2: SECOND STRING/
  *
  * Return: pointer of an array of chars.
  */
